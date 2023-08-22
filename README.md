@@ -6,13 +6,17 @@
 
 6000多个样本，解压缩后数据量为9个G左右，建筑物覆盖率在10％以上，遥感影像来源Google地图
 
+关于高度数据，是将每栋建筑的楼层数（floor） * 3 米
+
+关于准确性，论文：[A deep learning method for building height estimation using high-resolution multi-view imagery over urban areas: A case study of 42 Chinese cities](https://www.researchgate.net/publication/353206769_A_deep_learning_method_for_building_height_estimation_using_high-resolution_multi-view_imagery_over_urban_areas_A_case_study_of_42_Chinese_cities) 中提到楼层数（floor）的**RMSE is 1.190**，并提到了**each floor is 3 m**的相关研究
+
 文件夹`samples`下为示例数据，共14组，文件名字为`height_<x>_<y>`和`google_<x>_<y>`相对应
 
-下载地址为：
+完整数据下载地址为：
 
-链接: https://pan.baidu.com/s/1ZRTvOd2xFsWf7IOlHjpzoA?pwd=wgif 
+ - 百度网盘链接: https://pan.baidu.com/s/1ZRTvOd2xFsWf7IOlHjpzoA?pwd=wgif 
 
-完整数据如下图所示：
+一组示例数据如下图所示：
 
 ![image-20230821234503236](https://s2.loli.net/2023/08/22/lGyBP4ZD5rMOVxE.png)
 
